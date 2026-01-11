@@ -1,0 +1,63 @@
+/* Page background */
+body {
+  background: #0f172a;
+  font-family: sans-serif;
+}
+
+/* Main chat container */
+.chat {
+  max-width: 500px;
+  margin: auto;
+  background: #020617;
+  padding: 20px;
+  color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Message list area */
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+/* Normal message */
+.message {
+  background: #1e293b;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+}
+
+/* Message sent by current user */
+.message.own {
+  background: #2563eb;
+  text-align: right;
+}
+
+/* Input section */
+.input {
+  display: flex;
+}
+
+/* Text input */
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+}
+
+/* Join screen layout */
+.join {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
